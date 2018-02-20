@@ -1,0 +1,116 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @chakrabortysaptarshi
+ Sign out
+ Watch 89
+  Star 2,228  Fork 760 tylermcginnis/react-fundamentals
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
+Branch: react-router Find file Copy pathreact-fundamentals/app/index.css
+15ddbcd  on Apr 8, 2017
+@tylermcginnis tylermcginnis New changes for 'react-router' branch
+1 contributor
+RawBlameHistory     
+98 lines (80 sloc)  1.24 KB
+body {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #d0021b;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.button {
+  color: #e6e6e6;
+  background: #0a0a0a;
+  border: none;
+  font-size: 16px;
+  border-radius: 3px;
+  width: 200px;
+  text-align: center;
+  display: block;
+  padding: 7px 0;
+  margin: 10px auto;
+}
+
+.button:hover:enabled {
+  background: linear-gradient(#1a1a1a,#0a0a0a);
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:active {
+  transform: translateY(1px);
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.space-list-items {
+  margin-bottom: 7px;
+}
+
+.languages {
+  display: flex;
+  justify-content: center;
+}
+
+.languages li {
+  margin: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.popular-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.popular-item {
+  margin: 20px;
+  text-align: center;
+}
+
+.popular-rank {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav li {
+  margin-right: 15px;
+}
+
+.active {
+  font-weight: bold;
+}
